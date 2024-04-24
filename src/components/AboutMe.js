@@ -17,7 +17,12 @@ export const AboutMe = () => {
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }>
-                  <img src={AboutMeImg} alt="Header Img" className="img-me" />
+                  <img
+                    src={AboutMeImg}
+                    alt="Header Img"
+                    className="img-me"
+                    style={{ marginBottom: "40px" }}
+                  />
                 </div>
               )}
             </TrackVisibility>
@@ -31,20 +36,20 @@ export const AboutMe = () => {
                   }>
                   <h2>About me</h2>
                   <div className="about-me-text">
-                    As a Full Stack Developer, I deal with development challenges with
-                    a comprehensive mindset, merging my proficiency in both
-                    front-end and back-end development.Throughout my software
-                    development journey, I've cultivated a diverse skill set
-                    that allows me to adapt and be flexible across various
-                    aspects of development. From conceptualization to
-                    deployment, my focus is on delivering refined, effective
-                    solutions that satisfy client expectations. I'm deeply
-                    invested in staying updated with the latest industry trends
-                    and technologies, ensuring that I continuously refine my
-                    expertise to deliver innovative solutions that yield
-                    tangible results. This dedication to ongoing learning allows
-                    me to evolve and elevate my skills while enhancing project
-                    outcomes.
+                    As a Full Stack Developer, I deal with development
+                    challenges with a comprehensive mindset, merging my
+                    proficiency in both front-end and back-end
+                    development.Throughout my software development journey, I've
+                    cultivated a diverse skill set that allows me to adapt and
+                    be flexible across various aspects of development. From
+                    conceptualization to deployment, my focus is on delivering
+                    refined, effective solutions that satisfy client
+                    expectations. I'm deeply invested in staying updated with
+                    the latest industry trends and technologies, ensuring that I
+                    continuously refine my expertise to deliver innovative
+                    solutions that yield tangible results. This dedication to
+                    ongoing learning allows me to evolve and elevate my skills
+                    while enhancing project outcomes.
                   </div>
                 </div>
               )}

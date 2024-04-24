@@ -1,15 +1,15 @@
 import 'animate.css';
 import { Col, Container, Row, Tab } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
-import quizApp from "../assets/img/quizApp.JPG";
-import gymApp from "../assets/img/gymApp.JPG";
-import template1 from "../assets/img/template1.JPG";
 import deliveryApp from "../assets/img/deliveryApp.JPG";
-import spring from "../assets/img/spring.png";
+import gymApp from "../assets/img/gymApp.JPG";
+import quizApp from "../assets/img/quizApp.JPG";
 import rentApp from "../assets/img/rentApp.JPG";
+import spring from "../assets/img/spring.png";
 import stage from "../assets/img/stage.png";
-import webSchool from "../assets/img/webSchool.JPG";
+import template1 from "../assets/img/template1.JPG";
 import university from "../assets/img/university.JPG";
+import webSchool from "../assets/img/webSchool.JPG";
 
 import { ProjectCard } from "./ProjectCard";
 
