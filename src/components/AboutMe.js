@@ -9,7 +9,7 @@ export const AboutMe = () => {
   return (
     <section className="contact" id="aboutme">
       <Container>
-        <Row className="align-items-center ">
+        <Row className="align-items-center aboutMeCont ">
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) => (

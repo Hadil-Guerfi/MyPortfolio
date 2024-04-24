@@ -83,7 +83,7 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
                   <h2>Projects</h2>
-                  <p>
+                  <p className='project-text'>
                     Each project embodies a journey of problem-solving,
                     creativity, and continuous learning. From responsive layouts
                     to dynamic functionality, I aim to create user-friendly
