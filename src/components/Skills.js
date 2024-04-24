@@ -132,13 +132,16 @@ export const Skills = () => {
                   <h5>Conceptualization</h5>
                 </div>
                 <div className="item">
+                  <h5>Problem solving</h5>
+                </div>
+                <div className="item">
                   <h5>Adaptability and flexibility</h5>
                 </div>
                 <div className="item">
                   <h5>Hard working</h5>
                 </div>
                 <div className="item">
-                  <h5>Good communication</h5>
+                  <h5>Effective communication</h5>
                 </div>
                 <div className="item">
                   <h5>Collaboration</h5>
