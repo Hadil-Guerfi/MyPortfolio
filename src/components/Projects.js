@@ -10,6 +10,7 @@ import stage from "../assets/img/stage.png";
 import template1 from "../assets/img/template1.JPG";
 import university from "../assets/img/university.JPG";
 import webSchool from "../assets/img/webSchool.JPG";
+import ultraProfile from "../assets/img/ultraProfile.JPG";
 
 import { ProjectCard } from "./ProjectCard";
 
@@ -40,7 +41,7 @@ export const Projects = () => {
       guithubLink: "",
     },
     {
-      title: "Food Delivery",
+      title: "Food Delivery Web Application",
       description: "React js & Firebase",
       imgUrl: deliveryApp,
       guithubLink: "https://github.com/Hadil-Guerfi/Delivery-Food",
@@ -50,6 +51,12 @@ export const Projects = () => {
       description: "React js",
       imgUrl: gymApp,
       guithubLink: "https://github.com/Hadil-Guerfi/Gym-Template",
+    },
+    {
+      title: "Portfolio Web Site",
+      description: "React js",
+      imgUrl: ultraProfile,
+      guithubLink: "https://github.com/Hadil-Guerfi/Ultra-Profile-Template",
     },
     {
       title: "Quiz Game",
