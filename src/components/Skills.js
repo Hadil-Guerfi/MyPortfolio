@@ -129,7 +129,7 @@ export const Skills = () => {
                   <h5>Design</h5>
                 </div>
                 <div className="item">
-                  <h5>Conceptualization</h5>
+                  <h5>Software design</h5>
                 </div>
                 <div className="item">
                   <h5>Problem solving</h5>
