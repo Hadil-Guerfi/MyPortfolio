@@ -42,7 +42,7 @@ export const AboutMe = () => {
                     development.Throughout my software development journey, I've
                     cultivated a diverse skill set that allows me to adapt and
                     be flexible across various aspects of development. From
-                    conceptualization to implementation, my focus is on delivering
+                    design to implementation, my focus is on delivering
                     refined, effective solutions that satisfy client
                     expectations. I'm deeply invested in staying updated with
                     the latest industry trends and technologies, ensuring that I
