@@ -27,6 +27,8 @@ import ts from "../assets/img/ts.png";
 import java from "../assets/img/java.png";
 import php from "../assets/img/php.png";
 import linux from "../assets/img/LinuxImg.png";
+import jest from "../assets/img/jest.png";
+import rtl from "../assets/img/rtl.png";
 
 import { ProjectCard } from "./ProjectCard";
 
@@ -49,11 +51,16 @@ export const Technologie = () => {
     { title: "Nest js", imgUrl: nestImg },
   ];
 
+  const testing = [
+    { title: "Jest", imgUrl: jest },
+    { title: "React Testing Library", imgUrl: rtl },
+  ];
+
   const devops = [
     { title: "docker", imgUrl: docker },
     { title: "Kubernetes", imgUrl: k8s },
     { title: "AWS", imgUrl: aws },
-    { title: "Github actions", imgUrl: githubactions },
+    { title: "Github Actions", imgUrl: githubactions },
   ];
 
   const Databases = [
@@ -152,6 +159,45 @@ export const Technologie = () => {
                           xxl={8}
                           className="g-5">
                           {backend.map((project, index) => (
+                            <Col
+                              key={index}
+                              className="d-flex align-items-center justify-content-center">
+                              <ProjectCard {...project} />
+                            </Col>
+                          ))}
+                        </Row>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                  <div
+                    style={{
+                      width: "full",
+                      height: "0.5px",
+                      backgroundColor: "#dbdbdb",
+                    }}></div>
+                  <h3
+                    style={{
+                      margin: "15px 0 40px",
+                      color: "#0ba4ae",
+                      textAlign: "center",
+                    }}>
+                    Testing
+                  </h3>{" "}
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Tab.Content
+                      id="slideInUp"
+                      className={
+                        isVisible ? "animate__animated animate__slideInUp" : ""
+                      }>
+                      <Tab.Pane eventKey="first">
+                        <Row
+                          xs={3}
+                          md={3}
+                          lg={3}
+                          xl={5}
+                          xxl={8}
+                          className="g-5">
+                          {testing.map((project, index) => (
                             <Col
                               key={index}
                               className="d-flex align-items-center justify-content-center">
@@ -291,7 +337,7 @@ export const Technologie = () => {
                       color: "#0ba4ae",
                       textAlign: "center",
                     }}>
-                    Operatins Systems
+                    Operatings Systems
                   </h3>{" "}
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Tab.Content
