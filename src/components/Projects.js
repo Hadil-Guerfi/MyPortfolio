@@ -1,6 +1,6 @@
-import 'animate.css';
+import "animate.css";
 import { Col, Container, Row, Tab } from "react-bootstrap";
-import TrackVisibility from 'react-on-screen';
+import TrackVisibility from "react-on-screen";
 import deliveryApp from "../assets/img/deliveryApp.JPG";
 import gymApp from "../assets/img/gymApp.JPG";
 import quizApp from "../assets/img/quizApp.JPG";
@@ -11,11 +11,26 @@ import template1 from "../assets/img/template1.JPG";
 import university from "../assets/img/university.JPG";
 import webSchool from "../assets/img/webSchool.JPG";
 import ultraProfile from "../assets/img/ultraProfile.JPG";
+import parking from "../assets/img/parkingapp.JPG";
+import ecommerce from "../assets/img/ecpmmerce.JPG";
 
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Parking Web Application",
+      description: "Nextjs & Nestjs ",
+      imgUrl: parking,
+      guithubLink: "",
+    },
+    {
+      title: "Ecommerce Web Application",
+      description: "Nextjs",
+      imgUrl: ecommerce,
+      guithubLink: "https://github.com/Hadil-Guerfi/Fullstack-Ecommerce-Nextjs",
+    },
+
     {
       title: "University Web Application",
       description: "MERN Stack",
@@ -90,7 +105,7 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
                   <h2>Projects</h2>
-                  <p className='project-text'>
+                  <p className="project-text">
                     Each project embodies a journey of problem-solving,
                     creativity, and continuous learning. From responsive layouts
                     to dynamic functionality, I aim to create user-friendly
@@ -119,4 +134,4 @@ export const Projects = () => {
       </Container>
     </section>
   );
-}
+};

@@ -9,11 +9,14 @@ export const ProjectCard = ({ title, description, imgUrl, guithubLink }) => {
             src={imgUrl}
             alt=""
             style={{
-              backgroundColor: title === "Git/Github" ? "white" : "transparent",
+              height: description ? "300px" : "120px",
+              width: "100%",
+              backgroundColor: title ? "#e8e8e8" : "transparent",
             }}
           />
+
           <div className="proj-txtx">
-            <h4>{title}</h4>
+            <h4 style={{ fontSize: "18px" }}>{title}</h4>
             <span>{description}</span>
             {guithubLink && (
               <button className="card-btn">
