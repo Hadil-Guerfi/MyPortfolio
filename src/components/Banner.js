@@ -44,7 +44,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum((loopNum) => loopNum + 1);
       setDelta(500);
-    } 
+    }
   };
 
   const particlesInit = useCallback(async (engine) => {
@@ -137,7 +137,11 @@ export const Banner = () => {
                   className={
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }>
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <button
+                    onClick={() => window.open("/HadilGuerfiCV.pdf", "_blank")}>
+                    <span className="tagline">Download my cv</span>{" "}
+                  </button>
+
                   <h1>
                     {`Hi! I'm Hadil Guerfi`}{" "}
                     <span
