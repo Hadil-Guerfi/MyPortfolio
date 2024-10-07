@@ -29,6 +29,8 @@ import php from "../assets/img/php.png";
 import linux from "../assets/img/LinuxImg.png";
 import jest from "../assets/img/jest.png";
 import rtl from "../assets/img/rtl.png";
+import SpringBoot from "../assets/img/SpringBoot.png"
+import Laravel from "../assets/img/Laravel.png";
 
 import { ProjectCard } from "./ProjectCard";
 
@@ -49,6 +51,8 @@ export const Technologie = () => {
     { title: "Node js", imgUrl: nodejsImg },
     { title: "Express js", imgUrl: expressjsImg },
     { title: "Nest js", imgUrl: nestImg },
+    { title: "Spring Boot", imgUrl: SpringBoot },
+    { title: "Laravel", imgUrl: Laravel },
   ];
 
   const testing = [
